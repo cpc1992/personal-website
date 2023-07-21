@@ -21,10 +21,10 @@ app.get('/api', (req, res) => {
 })
 
 
-// send static files 
-app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
+// send static files to root path
+app.use('/', express.static(path.join(__dirname, 'frontend', 'dist')));
 
-//send homepage front end on rootpath 
+// send homepage frontend on root path 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'));
 })
