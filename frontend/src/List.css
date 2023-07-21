@@ -1,0 +1,12 @@
+.project-list-title {
+  font-size: var(--titlesize);
+  font-weight: var(--titleweight);
+  margin: 0px;
+}
+
+.project-list-items {
+  list-style-type: none;
+  font-size: var(--textsize);
+  font-weight: var(--textweight);
+  /* margin: 0px; */
+}
