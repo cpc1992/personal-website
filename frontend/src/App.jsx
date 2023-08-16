@@ -5,9 +5,11 @@ import ContextBox from "./ContentBox.jsx";
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <ContextBox />
-    </>
+    <div className="margin-box">
+      <div className="shadowed-box">
+        <Header />
+        <ContextBox />
+      </div>
+    </div>
   );
 }
