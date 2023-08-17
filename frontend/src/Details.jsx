@@ -13,13 +13,13 @@ export default function Details({ projects, toggler, toggle }) {
     <div className="details-box">
       <div className="details-holder">
         <div className="hidden">
-          <h1 className="welcome">Hello There</h1>
+          <h2 className="welcome">Welcome.</h2>
           <p className="para-text">
             Hi my name is Clifford Chan. I'm a full stack software developer
             living in the Bay Area. I am passionate about solving problems. I am
-            the type of person who will spend hours writing a script to save me
-            5 minutes a day. I love learning new technologies and expanding my
-            skillset.
+            the type of person who will spend hours writing a script that will
+            save me 5 minutes a day. I love learning new technologies and
+            expanding my skillset.
             <br />
             <br />
             When I'm not coding you can find me...
@@ -32,13 +32,13 @@ export default function Details({ projects, toggler, toggle }) {
             (noneSelected ? "open-left-trans" : "closed-left-trans")
           }
         >
-          <h2 className="welcome">Welcome</h2>
+          <h2 className="welcome">Welcome.</h2>
           <p className="para-text">
             Hi my name is Clifford Chan. I'm a full stack software developer
             living in the Bay Area. I am passionate about solving problems. I am
-            the type of person who will spend hours writing a script to save me
-            5 minutes a day. I love learning new technologies and expanding my
-            skillset.
+            the type of person who will spend hours writing a script that will
+            save me 5 minutes a day. I love learning new technologies and
+            expanding my skillset.
             <br />
             <br />
             When I'm not coding you can find me...

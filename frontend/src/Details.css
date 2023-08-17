@@ -2,6 +2,7 @@
   left: 0;
   top: 0;
   position: absolute;
+  height: 100%;
 }
 
 /* these two are only used for the welcome details */
@@ -57,4 +58,55 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: var(--transitionspeedfast);
+}
+
+/* SWITCH TO BOTTOM/TOP WHEN SCREEN IS SMALL */
+@media (max-width: 950px) {
+  .open-left-trans {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+
+  /* closed with anchor left*/
+  .closed-left-trans {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+
+  /* these below are used for the project details */
+  /* closed with anchor right*/
+  .closed-right {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+
+  /* closing with anchor right*/
+  .closed-right-trans {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+
+  /* opened with anchor right */
+  .open-right {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+
+  /* opening with anchor right */
+  .open-right-trans {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+
+  /* opened with anchor left */
+  .open-left {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+
+  /* closing with anchor left */
+  .closed-left-trans {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
 }

@@ -73,10 +73,14 @@ export default function List({ projects, setProjects }) {
     <div className="list-box">
       <h2 className="project-list-title">Projects</h2>
       <ul className="project-list-items">
+        <div className="project-list-border"></div>
         {projects.map((project) => {
           return (
-            <li key={project.id} id={project.id}>
-              <span onClick={() => selectProject(project.id)}>
+            <li className="project-list-item" key={project.id} id={project.id}>
+              <span
+                className="project-list-text"
+                onClick={() => selectProject(project.id)}
+              >
                 {project.title}
               </span>
             </li>
