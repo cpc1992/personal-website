@@ -149,3 +149,9 @@
 .project-outline {
   border-left: 2px rgba(209, 209, 209, 0.5) solid;
 }
+
+@media (max-width: 480px) {
+  .project-outline {
+    padding-right: 10px;
+  }
+}
