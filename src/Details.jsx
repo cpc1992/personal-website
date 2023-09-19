@@ -45,11 +45,13 @@ export default function Details({ projects }) {
           <h2 className="welcome">Welcome.</h2>
           <div className="project-outline">
             <p className="para-text">
-              Hi my name is Clifford Chan. I'm a full stack software developer
-              living in the Bay Area. I am passionate about solving problems. I
-              am the type of person who will spend hours writing a script that
-              will save me 5 minutes a day. I love learning new technologies and
-              expanding my skillset.
+              Hi my name is Clifford Chan. I'm a full-stack software engineer
+              living in the Bay Area. I have a keen interest in anything that
+              has to do with data structures, algorithms, and full-stack
+              development. I am the type of person who will spend hours writing
+              a script that will save me 5 minutes a day. I loves solving
+              challenging problems, along with exploring and experimenting with
+              new technologies.
             </p>
             <p className="para-text">
               When I'm not coding you can find me reading Brandon Sanderson
