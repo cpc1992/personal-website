@@ -2,7 +2,7 @@ const myprojects = [
   {
     "id": 0,
     "title": "Graph Traversal Visualizer",
-    "description": "A fun app that visualizes different graph traversal algorithms. It can produce up to 1000 nodes and animate the traversal between two nodes or the entire graph. I've always been intrigued by graph algorithms and I wanted to visualize them in action. I hope you have as much fun playing with this as I did building it! <br /> Tip: You can drag around the nodes :D",
+    "description": "A fun app that visualizes different graph traversal algorithms. It can produce up to 1000 nodes and animate the traversal between two nodes or the entire graph. I've always been intrigued by graph algorithms and I wanted to visualize them in action. I hope you have as much fun playing with this as I did building it! <br /> Tip: You can drag the nodes around your screen :D",
     "tooling": "The UI is built with React, and data visualization is done by D3js.",
     "links": [
       ["Live Site", "https://graph-traversal-kappa.vercel.app/"],
@@ -24,11 +24,21 @@ const myprojects = [
   {
     "id": 2,
     "title": "Unusual Options Flow",
-    "description": "This app uses the Discord API to query unusual stock option purchases and also scrapes Yahoo finance earnings data. The data is then compared to show if the option purchases coincide with upcoming company earnings. The purchase data is listed in table format and is searchable by ticker. <br />Note: All API requests and scraping were turned off in June 2022.",
+    "description": "This app uses the Discord API to query unusual stock option purchases and also scrapes Yahoo finance earnings data. The data is then compared to show if the option purchases coincide with upcoming company earnings. The purchase data is listed in table format and is searchable by ticker. <br />Note: All API requests and scraping functions were turned off in June 2022.",
     "tooling": "The UI is written in HTML/CSS with help from Bootstrap, the backend is handled by an Express server, and the data is stored in MongoDB.",
     "links": [
       ["Live Site", "https://unusual-option-flow.vercel.app/auth"],
       ["Github", "https://github.com/cpc1992/UnusualOptionFlow"],
+    ],
+    "state": 0
+  },
+  {
+    "id": 3,
+    "title": "Personal Website",
+    "description": "If you are reading this you are already here! A simple single page app built for the sole purpose of linking up all of my favorite projects. I spent longer on the sliding animations than I am willing to admit so thank you for visiting. Cheers!",
+    "tooling": "Written in React",
+    "links": [
+      ["Github", "https://github.com/cpc1992/personal-website"],
     ],
     "state": 0
   }

@@ -1,7 +1,7 @@
 import "./Details.css";
 import parse from "html-react-parser";
 
-export default function Details({ projects, toggler, toggle }) {
+export default function Details({ projects }) {
   let noneSelected = true;
 
   for (let proj of projects) {
@@ -53,8 +53,8 @@ export default function Details({ projects, toggler, toggle }) {
             </p>
             <p className="para-text">
               When I'm not coding you can find me reading Brandon Sanderson
-              books, eating hot pot, or running around the Plains of Hyrule
-              looking for Korok seeds!
+              books, eating hot pot, or running around Hyrule searching for
+              Korok seeds!
             </p>
           </div>
         </div>
@@ -85,6 +85,7 @@ export default function Details({ projects, toggler, toggle }) {
                   {project.links.map((project) => {
                     return (
                       <a
+                        key={project[0]}
                         target="_blank"
                         rel="noopener noreferrer"
                         href={project[1]}

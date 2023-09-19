@@ -132,8 +132,9 @@
   cursor: pointer;
   transition: var(--transitionspeedfast);
   text-decoration: none;
-
-  /* border: var(--redborder); */
+}
+.project-link:hover {
+  color: white;
 }
 
 .para-text {
