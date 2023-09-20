@@ -13,7 +13,7 @@ const myprojects = [
   {
     "id": 1,
     "title": "Airbnb Tableizer",
-    "description": "This is a tool which scrapes Airbnb links provided by the user and generates a temporary Google Sheet. In preparation for travel, I used to manually comb through hundreds of listings on Airbnb in order to compare rentals. One day I though 'I can automate this' and this tool was born!",
+    "description": "This is a tool which scrapes Airbnb links provided by the user and generates a temporary Google Sheet. In preparation for a trip, I used to manually comb through hundreds of listings on Airbnb in order to compare rentals. One day I thought 'I can automate this' and this tool was born!",
     "tooling": "The UI is built with React, and the backend is handled by a Python Flask server.",
     "links": [
       ["Live Site", "https://airbnb-tableizer.vercel.app/"],
