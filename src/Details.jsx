@@ -49,7 +49,7 @@ export default function Details({ projects }) {
               living in the Bay Area. I have a keen interest in anything that
               has to do with data structures, algorithms, and full-stack
               development. I am the type of person who will spend hours writing
-              a script that will save me 5 minutes a day. I loves solving
+              a script that will save me 5 minutes a day. I love solving
               challenging problems, along with exploring and experimenting with
               new technologies.
             </p>
