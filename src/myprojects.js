@@ -35,7 +35,7 @@ const myprojects = [
   {
     "id": 3,
     "title": "Personal Website",
-    "description": "If you are reading this you are already here! A simple single page app built for the sole purpose of linking up all of my favorite projects. I spent longer on the sliding animations than I am willing to admit so thank you for visiting. Cheers!",
+    "description": "If you are reading this then you are already here! A simple single page app built for the sole purpose of linking up all of my favorite projects. I spent longer on the sliding animations than I am willing to admit so thank you for visiting. Cheers!",
     "tooling": "Written in React",
     "links": [
       ["Github", "https://github.com/cpc1992/personal-website"],
